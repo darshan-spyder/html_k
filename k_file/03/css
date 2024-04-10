@@ -1,0 +1,78 @@
+hedaer li
+li is inside header class
+
+
+
+psudo class
+li:first-child {
+  font-weight: bold;
+}
+
+#box-model
+when two elements have margin 
+p have margin bottom 20px
+h2 tag which is below p tag have margin top 40px
+then margin collapse occur and bigger one 40px applied on it instead of 60px
+
+
+
+#width in percentage
+
+
+
+.post-img {
+  width: 100%;
+}
+
+it's parent is main-header and it's width is full 100%
+to post img uske parent element ke hisab se 100% set karega
+
+
+#global reset
+*{
+margin:0;
+padding:0;
+
+}
+
+iske niche ke child elements ki margin and padding jo lagegi vo isko override karegi.
+
+
+
+
+#position 
+jiski position set karni ho uski position:absolute rakhni he and top:50px bottom:50px karke set karni he or jiske accorsing set karni ho us tag(parent tag) ka position:relative rakhna he
+
+
+#right:-15px;
+vo opposite side me move karega 
+
+
+#psudo before and after element
+
+h2::after {
+  content: "Top";
+  background-color: #ffe70e;
+  color: #444;
+}
+
+ye h2 element ke bad content Top add karega.
+
+
+#how to debug our code
+
+1)sometimes unclosed tag
+2)html validator
+3)diff checker for checking two code difference
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+#float
+
+
+we can asign float left and right
+
+but if changes occurs then we can clear float 
+uske liye parent tag me ek or child add karke uski property me clear dedo.
+.clear {
+  clear: both;
+}
+
+
+#border box
+normally actual height and actual width me padding and border add hoti he
+but when we give box-sizing to border box then usme sirf actual height and actual width hi hoti he bina padding and border ko add kiye bina 
+
+
+
+#display:flex;
+order starts with 0;
+if we have to mob=ve it to first then giv order:-1;
+but if we give order >0 like order:1 then it moves it to end
+
+
+#defaults
+flex-grow:0;
+flex-shrink:1;
+flex-basis:auto;
+
+
+
+inline elements ex.a (anchor) so usme margin-top margin-bottom apply nai hogi isliye usko display:bliock karna hoga
